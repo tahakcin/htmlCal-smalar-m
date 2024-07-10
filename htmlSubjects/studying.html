@@ -1,0 +1,158 @@
+<h1>HTML</h1>
+
+<p>span:
+    Lorem ipsum dolor sit amet consectetur 
+    <span style="color: red">adipisicing elit </span>. Ullam, ut.
+</p>
+<hr>
+<p>
+    <strong>
+        <em>Lorem ipsum dolor sit.</em>
+    </strong>
+</p>
+<hr>
+<h2>List</h2>
+
+<!-- 
+Sıralı liste -> ordered list <od></od> 
+
+Sıralı olmayan liste -> unordered list <ul></ul>
+
+List item -> <li></li>
+
+-->
+
+<ol type="I">
+    <li>Liste ögesi *1*</li>
+    <li>Liste ögesi *2*</li>
+    <li>Liste ögesi *3*</li>
+</ol>
+
+<ul style="list-style-type:square">
+    <li>Liste ögesi *1*</li>
+    <li>Liste ögesi *2*</li>
+    <li>Liste ögesi *3*</li>
+</ul>
+
+<h2>Emmet - Zen Coding</h2>
+<!--    
+etiket isimlerini direkt verebiliyoruz
+"+" kardeş öge
+">" içinde öge
+"^" yukarı çık ve öge oluştur
+"*" çarp   ör: p*3
+"lorem" rastgele yazı   ör: lorem4  
+"."  class
+"#" id
+-->
+
+<!-- h1+p*2+h2+p*4 -->
+<h1></h1>
+<p></p>
+<p></p>
+<h2></h2>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<!-- ul>li*5^p -->
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<p></p>
+
+<!-- ul>li*3>lorem1^^p*2>lorem4^h3>lorem1 -->
+<ul>
+    <li>Lorem.</li>
+    <li>Quas?</li>
+    <li>Quae!</li>
+</ul>
+<p>Lorem ipsum dolor sit.</p>
+<p>Quis ducimus labore consequuntur!</p>
+<h3>Lorem.</h3>
+
+<!-- h3.deneme#newId>lorem1 -->
+<h3 class="deneme" id="newId">Lorem.</h3>
+
+<!-- ul>.newClass*4>lorem1 -->
+<ul>
+    <li class="newClass">Lorem.</li>
+    <li class="newClass">Placeat.</li>
+    <li class="newClass">Culpa.</li>
+    <li class="newClass">Velit.</li>
+</ul>
+
+<h2>Görsellerle Çalışmak</h2>
+<picture>
+    <source srcset="https://m.media-amazon.com/images/I/71G6hVfZPvL._AC_UF894,1000_QL80_.jpg" media="(min-width:800)">
+    <img src="https://assets.ubuntu.com/v1/932b565f-DC%20ROMA%20II%20UBUNTU%20DESKTOP.png" alt="Ubuntu pic" width="700" height="700">
+</picture>
+
+<a href="https://picsum.photos/" target="_blank">
+    <img src="https://picsum.photos/200/300" alt="">
+</a>
+
+<img src="images/1.jpg" border="4" align="left" alt="Buğday Tarlası" title="Lorem Pic" onload="picUploaded()">
+
+<script>
+    function picUploaded() {
+        alert("Resim Yüklendi!")
+    }
+</script>
+
+<img src="images/prisonBreak.jpg" alt="Prison Break" title="Michael and Lincoln" align="right" usemap="#exampleMap" width="750" height="750">
+
+<map name="exampleMap">
+    <area shape="circle" coords="250,200,120" href="C:\Users\TaHa\Documents\htmlCalismalarim\index.html" alt="Movies">
+</map>
+
+<br><br><br><br><br><br><br><br> 
+
+<div>
+    <h2><a href="#">Blok Element</a></h2>
+    
+    <h2>Linklerle Çalışmak</h2>
+
+    <!--
+        - başka bir web sitesine git
+        - başka bir sayfaya git
+        - aynı sayfa içinde bir yere git - ID bilgisi
+        - mail at
+        - telefon et
+        href = ""
+    -->
+
+
+    <ul>
+        <li>
+            <a href="https://instagram.com" target="_blank">
+                Run Instagram Login Page
+            </a>
+        </li>
+        <li>
+            <a href="iletisim.html">
+                iletisim sayfasına git
+            </a>
+        </li>
+        <li>
+            <a href="#footer">
+                En alt kısma git
+            </a>
+        </li>
+        <li>
+            <a href="mailto:muhammettahaakcin@gmail.com">
+                Bana mail at!
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+
+
+
+<h2 id= footer>En alt kısım</h2> <!--id Unique oldığı için tırnak işareti kullanmayabiliriz-->
