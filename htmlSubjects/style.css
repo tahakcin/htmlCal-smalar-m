@@ -1,0 +1,50 @@
+.color-blue .fw-bold {
+    color: blue;
+    font-weight: bold;
+}
+
+/* 
+ul>li:last-child {
+    color: bisque;
+} */
+
+/* li:nth-child(even) {
+    color: blueviolet;
+} */
+
+/* li:nth-child(2) {
+    color: darkred;
+} */
+
+/* li:nth-child(odd) {
+    background-color: lightsalmon ;
+} */
+
+/* li:nth-child(3n+0) {
+    color: bisque;
+} */
+
+/* .btn[disabled] {
+    color: orchid;
+} */
+
+/* div[title~="isim"] {
+    color: orange;
+} */
+
+/* a[href ^="https"] {
+    color: darkkhaki;
+} */
+
+/* a[href *="http"] {
+    color: palegreen;
+}
+
+div[class$="test"] {
+    background-color: darkorchid;
+} */
+
+/* a:active {
+    position: relative;
+    top: 5px;
+} */
