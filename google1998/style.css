@@ -1,0 +1,67 @@
+* {
+    font-family: sans;
+    position: static;
+    margin: 0;
+    padding: 0;
+}
+.d-grid {
+    display: grid;
+}
+.d-flex {
+    display: flex;
+}
+.search-engine {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(238, 238, 238);
+}
+.google-logo {
+    position: relative;
+    margin-top: 150px;
+    margin-left: 430px;
+    margin-right: 430px;
+    
+}
+.search-engine .search-inputbox {
+    width: 350px;
+}
+.search-engine .search-text {
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+.search-engine .buttons {
+    text-align: center;
+}
+.search-engine .buttons button {
+    width: 120px;
+}
+.search-engine .inbox-buttons {
+    margin: 0 auto;
+}
+.content {
+    margin-top: 2px;
+}
+.content .special-searches {
+    flex-direction: column;
+    width: 465px;
+    margin-left: 50px;
+    text-align: center;
+    background-color: rgb(126, 229, 218);
+}
+.content .about {
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(112, 204, 194);
+}
+.content .subscribe {
+    flex-direction: column;
+    width: 465px;
+    text-align: center;
+    background-color: rgb(98, 179, 170);
+}
+.copyright-text {
+    text-align: center;
+    margin-top: 30px ;
+}
